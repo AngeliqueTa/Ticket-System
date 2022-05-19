@@ -9,6 +9,8 @@ import { NavigationComponent } from './component/navigation/navigation.component
 import { ProjectsComponent } from './component/projects/projects.component';
 import { ReportsComponent } from './component/reports/reports.component';
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './component/login/login.component';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormsModule } from '@angular/forms';
     TicketsComponent,
     NavigationComponent,
     ProjectsComponent,
-    ReportsComponent
+    ReportsComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
