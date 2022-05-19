@@ -8,6 +8,7 @@ import { TicketsComponent } from './component/tickets/tickets.component';
 import { NavigationComponent } from './component/navigation/navigation.component';
 import { ProjectsComponent } from './component/projects/projects.component';
 import { ReportsComponent } from './component/reports/reports.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReportsComponent } from './component/reports/reports.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
